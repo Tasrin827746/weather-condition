@@ -1,4 +1,4 @@
-// components/LoadingState.tsx
+
 import React from "react";
 
 const LoadingState: React.FC = () => {
