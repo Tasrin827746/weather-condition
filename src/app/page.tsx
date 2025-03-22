@@ -115,10 +115,10 @@ export default function Home(): JSX.Element {
               city={city}
               temperature={weather.main.temp}
               weatherCondition={weather.weather[0].main}
-              weatherIcon={weather.weather[0].icon} 
               humidity={weather.main.humidity}
               windSpeed={weather.wind.speed}
               onRemove={() => removeCity(city)}
+              unit={unit} 
             />
             
             )
